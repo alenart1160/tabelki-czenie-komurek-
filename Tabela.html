@@ -1,0 +1,104 @@
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<style>
+body { font-family: Arial, sans-serif }
+#linia{
+	border: 2px solid green;
+	}
+	#rzad1{font-weight:bold;
+	background-color: lime;
+	color:green;}
+	#reszta1 {background-color: #ddd;
+		}
+	
+#tabela1 {width: 500px;
+		border: 2px solid red;
+		border-collapse: collapse;
+		text-align:center;
+		}
+	
+div{
+	margin: 0;
+	margin-bottom: 100px;
+	}
+	
+	#ab {font-size:20;
+	background-color:blue;
+		color:white;
+		border: 1px solid orange;
+		}
+	
+	#tabela2 {width: 500px;
+	border: 1px solid orange;
+  border-collapse: collapse;
+  text-align:center;
+  }
+  #a,  #ac, #ad {
+  border: 1px solid orange;
+  background-color: #80bfff;
+  }
+  #ad {
+  text-align:right;}
+  #ac{text-align:left;
+  vertical-align: top;}
+	</style>
+</head>
+<body>
+	<div>
+	<table id="tabela1">
+		<tr id="rzad1">
+			<td id="linia"> Styczeń</td><td id="linia">Luty</td><td id="linia">Marzec</td><td id="linia">Kwiecień</td><td id="linia">Maj</td><td id="linia">Czerwiec</td>
+		</tr>
+		<tr id="reszta1">
+			<td id="linia">kino</td><td id="linia">kino</td><td id="linia">teatr</td><td id="linia">teatr</td><td id="linia" colspan="2">filharmonia</td>
+		</tr>
+		<tr id="reszta1">
+			<td id="linia"> narty</td><td id="linia">narty</td><td id="linia" rowspan="2">basen</td><td id="linia">bieganie</td><td id="linia">rower</td><td id="linia">rower</td>
+		</tr>
+		<tr id="reszta1">
+		<td id="linia"> gitara</td>
+		<td id="linia"> gitara</td>
+		<td id="linia"> flet</td>
+		<td id="linia" colspan="2"> pianino</td>
+		</tr>
+		</table>
+	</div>
+	
+	<table id="tabela2">
+	<tr id="trc">
+		<td id="ab"> Poniedziałek</td>
+		<td id="ab"> Wtorek</td>
+		<td id="ab"> Środa</td>
+		<td id="ab"> Piątek</td>
+	</tr>
+		<tr id="trd">
+			<td id="a"> Jan</td>
+			<td id="a"> Henryk</td>
+			<td id="ac" rowspan="3"> Bartek</td>
+			<td id="a"> Edward</td>
+		</tr>
+	<tr id="trd">
+		<td id="ad" colspan="2"> Teresa</td>
+		<td id="a"> Wiktor</td>
+	</tr>
+		<tr id="trd">
+			<td id="a"> Ewelina</td>
+			<td id="a"> Maja</td>
+			<td id="a"> Oskar</td>
+		</tr>
+	<tr id="trd">
+		<td id="a"> Kacper</td>
+		<td id="a"> Oliwia</td>
+		<td id="a"> Edyta</td>
+		<td id="ac" rowspan="2"> Michał</td>
+	</tr>
+		<tr id="trd">
+			<td id="ad" colspan="2"> Beata</td>
+			<td id="a"> Krzysztof</td>
+		</tr>
+
+	</table>
+</div>
+</body>
+</html>
